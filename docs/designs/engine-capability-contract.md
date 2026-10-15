@@ -149,5 +149,5 @@ I read the README's promises against the spawn paths in `src/main/hive.ts` and
 which already name them and the record idea. This proposal folds mail and background calls into
 that record and adds one function that both spawn code and the Access tab read. I also ran REA's
 static Electron analysis (`rea-agents analyze-javascript-application`) to map the app's boundary
-between the window and the main process; one result from that is reported separately through
-private vulnerability reporting, as SECURITY.md asks.
+between the window and the main process; one result from that is reported to the maintainer
+privately rather than here, as SECURITY.md asks.
